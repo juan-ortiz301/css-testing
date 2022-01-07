@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#cont{
+    padding-top: 2em;
+    width: 50vw ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+.color1{
+    border-style: groove;
+    border-width: 10px 15px;
+    border-color: red green blue purple;
+}

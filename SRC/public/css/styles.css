@@ -1,18 +1,67 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
 
-#cont{
-    padding-top: 2em;
-    width: 50vw ;
-    font-family: Arial, Helvetica, sans-serif;
-    
-    
+h1::selection{
+    background: lime;
+    color:white ;
 }
 
-.color1{
-    border-style: groove;
-    border-width: 10px 15px;
-    border-color: red green blue purple;
+#cont {
+  padding-top: 2em;
+  width: 50vw;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+.color1 {
+  border-style: groove;
+  border-width: 10px 15px;
+  border-color: red green blue purple;
+}
+
+.boton {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  display: block;
+  margin: 20px auto;
+  padding: 20px 0;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* .boton:hover {
+  background-color: teal;
+  color: gray;
+  border: 10px solid orange;
+}
+
+.boton:active {
+  background-color: purple;
+  color: gray;
+  border: 5px solid orange;
+} */
+
+.cont-3 {
+  padding: 50px;
+  margin: 0 25px;
+  background-color: seagreen;
+}
+
+#n1:target{
+    background-color: sienna;
+    color: silver;
+}
+
+#n2:target{
+    background-color: purple;
+    color: silver;
+}
+
+#n3:target{
+    background-color: steelblue ;
+    color: silver;
+}
+

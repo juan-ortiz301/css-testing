@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --ColorFondo: aqua;
+    --colorhover: rgb(221, 77, 33);
+
+}
+
+a{
+    display: block;
+    width: 250px;
+    background-color: var(--ColorFondo);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.button:hover{
+    background-color: var(--colorhover) ;
+    color: var(--ColorFondo) ;
+}
+
+.cuadrado{
+    margin: 60px;
+    width: 45%;
+    height: 500px;
+    background: blue;
+}
+
+@media(max-width: 800px) {
+    .cuadrado{
+        background: chocolate;
+        width: 70%;
+    }
+}

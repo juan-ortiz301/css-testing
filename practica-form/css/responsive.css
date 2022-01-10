@@ -1,0 +1,35 @@
+/* Escritorios Grandes */
+
+@media (min-width: 1200px) {
+  .box {
+    width: 40%;
+  }
+}
+
+/* Tablets horizontal y escritorios normales */
+
+@media (min-width: 768px) {
+    .box {
+        width: 65%;
+      }
+}
+
+/* Moviles en horizontal y tablets en vertical */
+
+@media (max-width: 767px) {
+    .box {
+        width: 80%;
+      }
+}
+
+/* Moviles en vertical */
+
+@media (min-width: 480px) {
+    .box {
+        width: 90%;
+      }
+
+      .button {
+          width: 40%;
+      }
+}
